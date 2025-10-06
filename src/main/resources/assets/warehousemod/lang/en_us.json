@@ -1,0 +1,6 @@
+{
+  "text.warehousemod.warehouse": "Public Warehouse",
+  "command.warehousemod.calculate.success": "Material calculation completed",
+  "command.warehousemod.calculate.error": "Error calculating materials: %s",
+  "command.warehousemod.clear.success": "Warehouse cleared and items dropped"
+}

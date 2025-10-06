@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "warehousemod",
+  "version": "${version}",
+  "name": "公共仓库模组",
+  "description": "服务器公共仓库和原理图材料计算",
+  "authors": ["YourName"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.warehousemod.WarehouseMod"]
+  },
+  "mixins": [
+    "warehousemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.x",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
